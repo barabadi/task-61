@@ -10,6 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+    <script>
+  const prices = document.querySelectorAll('.price.hot');
+  prices.forEach(price => {
+    const emoji = document.createTextNode('🔥');
+    price.appendChild(emoji);
+  });
+</script>
+
     <div class="main">
       <h2 class="title">✨ Our Offers</h2>
       <div class="products">
